@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>All Awesome Books</h1>
+
+        <div class="book-list">
+            <!-- Pre-existing box with 6 lines -->
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <div class="book-row">
+                <button class="remove-button" onclick="removeBook(this)">Remove</button>
+                <div>Title by Author</div>
+            </div>
+            <!-- New books will be dynamically added here -->
+        </div>
+
+        <h2 class="add-book">Add a New Book</h2>
+        <input type="text" class="input-field" placeholder="Title" id="title">
+        <input type="text" class="input-field" placeholder="Author" id="author">
+        <button class="add-button" onclick="addBook()">Add Book</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
